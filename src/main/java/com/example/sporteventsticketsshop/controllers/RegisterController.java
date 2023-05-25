@@ -26,6 +26,9 @@ public class RegisterController implements Initializable {
     @FXML
     private Label usernameTaken;
 
+    private NitriteDB db = NitriteDB.getInstance();
+
+    private Main m = new Main();
     private final String[] roles = {"Customer", "Organizer"};
 
     @Override
@@ -45,7 +48,14 @@ public class RegisterController implements Initializable {
         } else if (role.getValue() == null) {
             usernameTaken.setText("Please fill in the role field");
         } else {
+            db.insertUser(username.getText(), password.getText(), (String) role.getValue());
             usernameTaken.setText("Account created successfully!");
+            db.setCurrentUser(db.findUser(username.getText()).get());
+            if(role.getValue().equals("Customer")) {
+                m.changeScene("customer-menu.fxml");
+            } else {
+                m.changeScene("organizer-menu.fxml");
+            }
         }
     }
 }
