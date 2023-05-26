@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-15 Implement Log In Backend Functionality">
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-13 Verify if the credentials are in the Data Base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/LogInController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="STOA-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +118,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685087803594</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="STOA-15 Verify if the credentials are in the Data Base">
+      <created>1685087869615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685087869615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="STOA-13 Verify if the credentials are in the Data Base">
+      <created>1685088252404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685088252404</updated>
+    </task>
+    <task id="LOCAL-00007" summary="STOA-13 Verify if the credentials are in the Data Base">
+      <created>1685088305089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685088305089</updated>
+    </task>
+    <task id="LOCAL-00008" summary="STOA-13 Verify if the credentials are in the Data Base">
+      <created>1685088342058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685088342058</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +180,8 @@
     <MESSAGE value="STOA-10 Created a GUI Register Form" />
     <MESSAGE value="STOA-12 Create a GUI Login Form" />
     <MESSAGE value="STOA-15 Implement Log In Backend Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="STOA-15 Implement Log In Backend Functionality" />
+    <MESSAGE value="STOA-15 Verify if the credentials are in the Data Base" />
+    <MESSAGE value="STOA-13 Verify if the credentials are in the Data Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="STOA-13 Verify if the credentials are in the Data Base" />
   </component>
 </project>
