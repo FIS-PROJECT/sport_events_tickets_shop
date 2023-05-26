@@ -31,12 +31,12 @@
                 </Label>
                 <TextField fx:id="username" layoutX="14.0" layoutY="149.0" prefHeight="41.0" prefWidth="235.0" promptText="Username" />
                 <PasswordField fx:id="password" layoutX="16.0" layoutY="200.0" prefHeight="42.0" prefWidth="235.0" promptText="Password" />
-                <Button fx:id="register" layoutX="61.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #000000;" text="Register" textFill="WHITE">
+                <Button fx:id="register" layoutX="61.0" layoutY="291.0" mnemonicParsing="false" onAction="#userRegister" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #000000;" text="Register" textFill="WHITE">
                     <font>
                         <Font name="Arial Rounded MT Bold" size="15.0" />
                     </font>
                 </Button>
-                <Button fx:id="login" layoutX="171.0" layoutY="333.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: #4287f5;" text="Login" textFill="#3500ff" underline="true">
+                <Button fx:id="login" layoutX="171.0" layoutY="333.0" mnemonicParsing="false" onAction="#toLogin" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: #4287f5;" text="Login" textFill="#3500ff" underline="true">
                     <font>
                         <Font name="Arial Rounded MT Bold" size="15.0" />
                     </font>

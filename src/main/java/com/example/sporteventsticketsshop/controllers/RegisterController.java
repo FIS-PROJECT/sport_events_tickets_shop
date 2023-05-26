@@ -58,4 +58,8 @@ public class RegisterController implements Initializable {
             }
         }
     }
+    public void toLogin(ActionEvent event) throws IOException {
+        Main m = new Main();
+        m.changeScene("log-in.fxml");
+    }
 }
