@@ -18,7 +18,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="basketballButton" layoutX="77.0" layoutY="250.0" mnemonicParsing="false" prefHeight="133.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
+      <Button fx:id="basketballButton" layoutX="77.0" layoutY="250.0" mnemonicParsing="false" onAction="#toBasketball" prefHeight="133.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
          <graphic>
             <ImageView fitHeight="116.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -26,7 +26,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="footballButton" layoutX="77.0" layoutY="94.0" mnemonicParsing="false"  prefHeight="133.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
+      <Button fx:id="footballButton" layoutX="77.0" layoutY="94.0" mnemonicParsing="false" onAction="#toFootball" prefHeight="133.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
          <graphic>
             <ImageView fitHeight="121.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -34,7 +34,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="rugbyButton" layoutX="356.0" layoutY="249.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
+      <Button fx:id="rugbyButton" layoutX="356.0" layoutY="249.0" mnemonicParsing="false" onAction="#toRugby" prefHeight="135.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
          <graphic>
             <ImageView fitHeight="112.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -42,7 +42,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="tennisButton" layoutX="342.0" layoutY="88.0" mnemonicParsing="false"  prefHeight="119.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
+      <Button fx:id="tennisButton" layoutX="342.0" layoutY="88.0" mnemonicParsing="false" onAction="#toTennis" prefHeight="119.0" prefWidth="171.0" style="-fx-background-color: #4287f5;">
          <graphic>
             <ImageView fitHeight="137.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -50,7 +50,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="back" layoutX="14.0" layoutY="16.0" mnemonicParsing="false"  prefHeight="51.0" prefWidth="69.0" style="-fx-background-color: #616161;" text="Back" textFill="WHITE">
+      <Button fx:id="back" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#toCustomerMenu" prefHeight="51.0" prefWidth="69.0" style="-fx-background-color: #616161;" text="Back" textFill="WHITE">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
