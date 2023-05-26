@@ -102,5 +102,11 @@ public class NitriteDB {
     public User getCurrentUser() {
         return currentUser;
     }
+    public void addEventToUser(User user,Event event){
+        if(event.getNumberOfSeats()!=0) {
+            user.addEvents(event);
+            userRepository.update(user);
+        }
+    }
 
 }

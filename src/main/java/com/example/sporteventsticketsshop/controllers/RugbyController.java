@@ -53,6 +53,8 @@ public class RugbyController implements Initializable {
 
         try {
             db.updateEvent(table.getSelectionModel().getSelectedItems().get(0));
+            db.addEventToUser(db.getCurrentUser(), table.getSelectionModel().getSelectedItems().get(0));
+
             successfullBuy();
         }catch(IndexOutOfBoundsException e){
             ticket_message.setText("Please select an event !");
