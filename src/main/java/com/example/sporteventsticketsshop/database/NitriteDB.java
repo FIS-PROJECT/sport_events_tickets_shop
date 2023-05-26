@@ -8,6 +8,8 @@ import com.example.sporteventsticketsshop.exceptions.UserAlreadyExistsException;
 import org.dizitart.no2.Nitrite;
 import org.dizitart.no2.objects.ObjectRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 public class NitriteDB {
@@ -17,6 +19,8 @@ public class NitriteDB {
     private Nitrite db;
 
     private ObjectRepository<User> userRepository;
+    private ObjectRepository<Event> eventRepository;
+
 
     private ObjectRepository<Event> eventRepository;
 
@@ -26,6 +30,8 @@ public class NitriteDB {
                 .filePath("users.txt")
                 .openOrCreate("user", "password");
         userRepository = db.getRepository(User.class);
+        eventRepository = db.getRepository(Event.class);
+
     }
 
     public static NitriteDB getInstance() {
@@ -84,6 +90,26 @@ public class NitriteDB {
             }
         }
         return Optional.empty();
+    }
+    public List<Event> readEvents() {
+        List<Event> events = new ArrayList<>();
+        for(Event e : eventRepository.find()) {
+            events.add(e);
+        }
+        return events;
+    }
+    public void updateEvent(Event event) throws InsufficientSeatsException {
+        event.updateNumberOfSeats();
+        eventRepository.update(event);
+    }
+    public User getCurrentUser() {
+        return currentUser;
+    }
+    public void addEventToUser(User user,Event event){
+        if(event.getNumberOfSeats()!=0) {
+            user.addEvents(event);
+            userRepository.update(user);
+        }
     }
 
     public boolean findEvent(String eventName) {

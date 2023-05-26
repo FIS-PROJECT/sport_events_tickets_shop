@@ -1,5 +1,6 @@
 package com.example.sporteventsticketsshop.entities;
 
+import com.example.sporteventsticketsshop.exceptions.InsufficientSeatsException;
 import org.dizitart.no2.objects.Id;
 
 import java.util.Objects;
@@ -67,6 +68,10 @@ public class Event {
         this.eventName = eventName;
     }
 
+    public void updateNumberOfSeats() throws InsufficientSeatsException {
+        if(numberOfSeats == 0) throw new InsufficientSeatsException();
+        numberOfSeats--;
+    }
 
     @Override
     public boolean equals(Object o) {
