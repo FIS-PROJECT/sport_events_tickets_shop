@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-17 Create a file with predefined sport events." />
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-26 Create a GUI for Adding New Sport Events">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/add-event.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/add-event.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/organizer-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/organizer-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685089169303</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="STOA-26 Create a GUI for Adding New Sport Events">
+      <created>1685091536798</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685091536798</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +214,7 @@
     <MESSAGE value="STOA-15 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-13 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-17 Create a file with predefined sport events." />
-    <option name="LAST_COMMIT_MESSAGE" value="STOA-17 Create a file with predefined sport events." />
+    <MESSAGE value="STOA-26 Create a GUI for Adding New Sport Events" />
+    <option name="LAST_COMMIT_MESSAGE" value="STOA-26 Create a GUI for Adding New Sport Events" />
   </component>
 </project>
