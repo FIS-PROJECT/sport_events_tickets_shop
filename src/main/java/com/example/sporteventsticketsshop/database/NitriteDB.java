@@ -4,6 +4,7 @@ import com.example.sporteventsticketsshop.entities.Event;
 import com.example.sporteventsticketsshop.entities.SportType;
 import com.example.sporteventsticketsshop.entities.User;
 import com.example.sporteventsticketsshop.exceptions.EventAlreadyExistException;
+import com.example.sporteventsticketsshop.exceptions.InsufficientSeatsException;
 import com.example.sporteventsticketsshop.exceptions.UserAlreadyExistsException;
 import org.dizitart.no2.Nitrite;
 import org.dizitart.no2.objects.ObjectRepository;
@@ -22,7 +23,6 @@ public class NitriteDB {
     private ObjectRepository<Event> eventRepository;
 
 
-    private ObjectRepository<Event> eventRepository;
 
     private NitriteDB() {
         db = Nitrite.builder()

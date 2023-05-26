@@ -15,7 +15,6 @@ public class User {
     public String role;
     public List<Event> events = new ArrayList<Event>();
 
-    private List<Event> events = new ArrayList<>();
 
     public User(){}
 
@@ -47,9 +46,6 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
-    }
-    public void addEvents(Event event){
-        events.add(event);
     }
 
     public void addEvents(Event event){
