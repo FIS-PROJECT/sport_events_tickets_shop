@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-17 Create a file with predefined sport events.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/customer-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/customer-menu.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-17 Create a file with predefined sport events." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -28,6 +25,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2QIIvYXEOhjjIlbbyf2451wniEo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Cursuri/FIS/PROIECT FIS/PROIECT FINAL/src/main/resources/com/example/sporteventsticketsshop/images",
+    "last_opened_file_path": "C:/Users/cojoc/Desktop/FIS/fis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
