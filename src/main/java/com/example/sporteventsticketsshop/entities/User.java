@@ -51,6 +51,13 @@ public class User {
     public void addEvents(Event event){
         events.add(event);
     }
+    public List<Event> getEvents() {
+        return events;
+    }
+
+    public void setEvents(List<Event> events) {
+        this.events = events;
+    }
 
     @Override
     public String toString() {
