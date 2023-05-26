@@ -22,8 +22,6 @@ public class NitriteDB {
     private ObjectRepository<User> userRepository;
     private ObjectRepository<Event> eventRepository;
 
-
-
     private NitriteDB() {
         db = Nitrite.builder()
                 .compressed()
