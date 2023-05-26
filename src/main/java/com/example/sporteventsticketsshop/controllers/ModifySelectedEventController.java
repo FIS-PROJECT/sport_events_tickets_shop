@@ -42,6 +42,8 @@ public class ModifySelectedEventController implements Initializable {
 
     NitriteDB db = NitriteDB.getInstance();
 
+    Event selectedEvent=db.selectedEvent(null);
+
     @FXML
     public void checkEvent() {
         if(eventName.getText().isEmpty()) {
@@ -61,6 +63,7 @@ public class ModifySelectedEventController implements Initializable {
             try {
                 double price = Double.parseDouble(ticketPrice.getText());
                 int number = Integer.parseInt(numberOfSeats.getText());
+                db.modifyEvent(new Event(eventName.getText(), sportTypeChoiceBox.getValue(), eventDate.getValue().toString(), number, price) );
                 eventLabel.setText("Event modified!");
             } catch (EventAlreadyExistException eventAlreadyExistException) {
                 eventLabel.setText(eventAlreadyExistException.getMessage());
@@ -78,5 +81,9 @@ public class ModifySelectedEventController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         sportTypeChoiceBox.getItems().addAll(Arrays.asList(SportType.FOOTBALL, SportType.BASKETBALL, SportType.TENNIS, SportType.RUGBY));
+        eventName.setText(selectedEvent.getEventName());
+        numberOfSeats.setText(selectedEvent.getNumberOfSeats()+"");
+        ticketPrice.setText(selectedEvent.getTicketPrice()+"");
+        sportTypeChoiceBox.setValue(selectedEvent.getSportType());
     }
 }
