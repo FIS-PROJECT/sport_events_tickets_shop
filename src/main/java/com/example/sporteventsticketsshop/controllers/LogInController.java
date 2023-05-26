@@ -33,8 +33,16 @@ public class LogInController {
         else if(tf_password.getText().isEmpty()) {
             wrongLogin.setText("Please fill in the password field");
         }
-        else if("DACA USER-UL A FOST GASIT - FUNCTIONALITATE"==null) {
-
+        else if(db.findUser(tf_username.getText(),tf_password.getText()).isPresent()) {
+            User user = db.findUser(tf_username.getText(),tf_password.getText()).get();
+            db.setCurrentUser(user);
+            Main m = new Main();
+            if(user.getRole().equals("Customer")) {
+                m.changeScene("customer-menu.fxml");
+            }
+            else if(user.getRole().equals("Organizer")){
+                m.changeScene("organizer-menu.fxml");
+            }
         }
         else {
             wrongLogin.setText("User credentials are introduced wrong!");
