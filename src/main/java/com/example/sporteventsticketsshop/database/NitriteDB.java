@@ -1,6 +1,9 @@
 package com.example.sporteventsticketsshop.database;
 
+import com.example.sporteventsticketsshop.entities.Event;
+import com.example.sporteventsticketsshop.entities.SportType;
 import com.example.sporteventsticketsshop.entities.User;
+import com.example.sporteventsticketsshop.exceptions.EventAlreadyExistException;
 import com.example.sporteventsticketsshop.exceptions.UserAlreadyExistsException;
 import org.dizitart.no2.Nitrite;
 import org.dizitart.no2.objects.ObjectRepository;
@@ -14,6 +17,8 @@ public class NitriteDB {
     private Nitrite db;
 
     private ObjectRepository<User> userRepository;
+
+    private ObjectRepository<Event> eventRepository;
 
     private NitriteDB() {
         db = Nitrite.builder()
@@ -79,5 +84,26 @@ public class NitriteDB {
             }
         }
         return Optional.empty();
+    }
+
+    public boolean findEvent(String eventName) {
+        for (Event e : eventRepository.find()) {
+            if (eventName.equals(e.getEventName())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void insertEvent(String eventName,
+                            SportType sportType,
+                            String eventDate,
+                            int numberOfSeats,
+                            double ticketPrice) {
+        if(findEvent(eventName)) throw new EventAlreadyExistException("This event already exist!");
+        Event event = new Event(eventName, sportType, eventDate, numberOfSeats, ticketPrice);
+        eventRepository.insert(event);
+        currentUser.addEvents(event);
+        userRepository.update(currentUser);
     }
 }

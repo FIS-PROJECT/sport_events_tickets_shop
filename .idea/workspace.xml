@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-26 Create a GUI for Adding New Sport Events">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/add-event.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/add-event.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/organizer-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/organizer-menu.fxml" afterDir="false" />
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-28 Create the Backend Functionality.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/database/NitriteDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/database/NitriteDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685091536798</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="STOA-28 Create the Backend Functionality.">
+      <created>1685092343524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685092343524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +221,7 @@
     <MESSAGE value="STOA-13 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-17 Create a file with predefined sport events." />
     <MESSAGE value="STOA-26 Create a GUI for Adding New Sport Events" />
-    <option name="LAST_COMMIT_MESSAGE" value="STOA-26 Create a GUI for Adding New Sport Events" />
+    <MESSAGE value="STOA-28 Create the Backend Functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="STOA-28 Create the Backend Functionality." />
   </component>
 </project>
