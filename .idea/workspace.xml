@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-17 Create a file with predefined sport events.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/customer-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/customer-menu.fxml" afterDir="false" />
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-28 Create the Backend Functionality.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/database/NitriteDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/database/NitriteDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2QIIvYXEOhjjIlbbyf2451wniEo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Cursuri/FIS/PROIECT FIS/PROIECT FINAL/src/main/resources/com/example/sporteventsticketsshop/images",
+    "last_opened_file_path": "C:/Users/cojoc/Desktop/FIS/fis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -161,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685089169303</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="STOA-26 Create a GUI for Adding New Sport Events">
+      <created>1685091536798</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685091536798</updated>
+    </task>
+    <task id="LOCAL-00012" summary="STOA-28 Create the Backend Functionality.">
+      <created>1685092343524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685092343524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +220,8 @@
     <MESSAGE value="STOA-15 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-13 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-17 Create a file with predefined sport events." />
-    <option name="LAST_COMMIT_MESSAGE" value="STOA-17 Create a file with predefined sport events." />
+    <MESSAGE value="STOA-26 Create a GUI for Adding New Sport Events" />
+    <MESSAGE value="STOA-28 Create the Backend Functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="STOA-28 Create the Backend Functionality." />
   </component>
 </project>
