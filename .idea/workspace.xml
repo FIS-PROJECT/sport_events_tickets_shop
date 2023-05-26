@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-13 Verify if the credentials are in the Data Base">
+    <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-17 Create a file with predefined sport events.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/controllers/CustomerMenuController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685088342058</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="STOA-17 Create a file with predefined sport events.">
+      <created>1685088851961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685088851961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +171,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="STOA-2" />
+                        <option value="origin/STOA-4" />
                       </list>
                     </value>
                   </entry>
@@ -182,6 +190,7 @@
     <MESSAGE value="STOA-15 Implement Log In Backend Functionality" />
     <MESSAGE value="STOA-15 Verify if the credentials are in the Data Base" />
     <MESSAGE value="STOA-13 Verify if the credentials are in the Data Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="STOA-13 Verify if the credentials are in the Data Base" />
+    <MESSAGE value="STOA-17 Create a file with predefined sport events." />
+    <option name="LAST_COMMIT_MESSAGE" value="STOA-17 Create a file with predefined sport events." />
   </component>
 </project>
