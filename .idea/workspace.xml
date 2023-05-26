@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab22006b-8f44-4afc-9dd4-d09edd45c090" name="Changes" comment="STOA-10 Created a GUI Register Form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/sporteventsticketsshop/fxml_files/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sporteventsticketsshop/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +29,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="2QIIvYXEOhjjIlbbyf2451wniEo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cojoc/Desktop/FIS/fis",
+    "last_opened_file_path": "D:/Cursuri/FIS/PROIECT FIS/PROIECT FINAL/src/main/resources/com/example/sporteventsticketsshop/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,23 +52,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Cursuri\FIS\PROIECT FIS\PROIECT FINAL\src\main\resources\com\example\sporteventsticketsshop\images" />
+      <recent name="D:\Cursuri\FIS\PROIECT FIS\PROIECT FINAL\src\main\resources\com\example\sporteventsticketsshop\fxml_files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cojoc\Desktop\FIS\sport_events_tickets_shop\src\main\resources\com\example\sporteventsticketsshop\images" />
       <recent name="C:\Users\cojoc\Desktop\FIS\sport_events_tickets_shop\src\main\resources\com\example\sporteventsticketsshop\fxml_files" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +96,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="STOA-2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

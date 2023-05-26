@@ -15,7 +15,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws IOException {
         primaryStage.setResizable(false);
         stage = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("fxml_files/register.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("fxml_files/log-in.fxml"));
         primaryStage.setTitle("Sport Events!");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
