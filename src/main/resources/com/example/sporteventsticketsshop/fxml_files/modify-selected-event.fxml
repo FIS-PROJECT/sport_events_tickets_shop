@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sporteventsticketsshop.controllers.ModifySelectedEventController">
     <children>
         <AnchorPane prefHeight="395.0" prefWidth="331.0" style="-fx-background-color: #000000;">
             <children>
@@ -25,7 +25,7 @@
         <AnchorPane prefHeight="400.0" prefWidth="270.0" style="-fx-background-color: #4287f5;">
             <children>
                 <TextField fx:id="eventName" layoutX="17.0" layoutY="61.0" prefHeight="41.0" prefWidth="235.0" promptText="Event Name" />
-                <Button fx:id="modifyEvent" layoutX="135.0" layoutY="303.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="118.0" style="-fx-background-color: #000000;" text="Modify Event" textFill="WHITE">
+                <Button fx:id="modifyEvent" layoutX="135.0" layoutY="303.0" mnemonicParsing="false" onAction="#checkEvent" prefHeight="33.0" prefWidth="118.0" style="-fx-background-color: #000000;" text="Modify Event" textFill="WHITE">
                     <font>
                         <Font name="Arial Rounded MT Bold" size="15.0" />
                     </font>
@@ -33,7 +33,7 @@
                 <ChoiceBox fx:id="sportTypeChoiceBox" layoutX="17.0" layoutY="252.0" prefHeight="25.0" prefWidth="235.0" />
                 <TextField fx:id="numberOfSeats" layoutX="17.0" layoutY="111.0" prefHeight="41.0" prefWidth="235.0" promptText="Number of Seats" />
                 <DatePicker fx:id="eventDate" layoutX="17.0" layoutY="163.0" prefHeight="25.0" prefWidth="235.0" promptText="Date" />
-                <Button fx:id="back" layoutX="19.0" layoutY="303.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Back" textFill="WHITE">
+                <Button fx:id="back" layoutX="19.0" layoutY="303.0" mnemonicParsing="false" onAction="#toModifyMenu" prefHeight="34.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Back" textFill="WHITE">
                     <font>
                         <Font name="Arial Rounded MT Bold" size="15.0" />
                     </font>

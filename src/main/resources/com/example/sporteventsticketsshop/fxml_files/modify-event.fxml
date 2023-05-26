@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sporteventsticketsshop.controllers.ModifyEventController">
     <children>
         <AnchorPane prefHeight="395.0" prefWidth="331.0" style="-fx-background-color: #000000;">
             <children>
@@ -33,8 +33,8 @@
                   <Font name="Arial Rounded MT Bold" size="22.0" />
                </font>
             </Label>
-            <Button fx:id="back" layoutX="14.0" layoutY="233.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #000000;" text="Back" textFill="WHITE" />
-            <Button fx:id="select" layoutX="131.0" layoutY="233.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #000000;" text="Select" textFill="WHITE" />
+            <Button fx:id="back" layoutX="14.0" layoutY="233.0" mnemonicParsing="false" onAction="#toOrganizerMenu" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #000000;" text="Back" textFill="WHITE" />
+            <Button fx:id="select" layoutX="131.0" layoutY="233.0" mnemonicParsing="false" onAction="#modifyEvent" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #000000;" text="Select" textFill="WHITE" />
             <ImageView fitHeight="150.0" fitWidth="107.0" layoutX="72.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/add-event.png" />

@@ -37,6 +37,7 @@ public class ModifyEventController implements Initializable {
     if(  eventChoiceBox.getValue()==null){
         selectEvent.setText("Please select an event");
     }else{
+        db.selectedEvent(eventChoiceBox.getValue());
         Main m = new Main();
         m.changeScene("modify-selected-event.fxml");
     }
