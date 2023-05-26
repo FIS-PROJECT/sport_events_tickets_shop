@@ -2,6 +2,9 @@ package com.example.sporteventsticketsshop.entities;
 
 
 import org.dizitart.no2.objects.Id;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class User {
@@ -10,6 +13,7 @@ public class User {
     public String username;
     public String password;
     public String role;
+    public List<Event> events = new ArrayList<Event>();
 
     public User(){}
 
@@ -41,6 +45,9 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+    public void addEvents(Event event){
+        events.add(event);
     }
 
     @Override
