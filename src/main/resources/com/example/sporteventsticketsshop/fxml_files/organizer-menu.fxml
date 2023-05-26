@@ -32,7 +32,7 @@
                 </Button>
                 <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="60.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../../../../../sport_events_tickets_shop/src/main/resources/com/example/sporteventsticketsshop/images/organizer.png" />
+                        <Image url="@../images/organizer.png" />
                     </image>
                 </ImageView>
             </children>
