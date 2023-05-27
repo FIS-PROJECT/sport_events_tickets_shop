@@ -52,7 +52,9 @@ public class RegisterController implements Initializable {
                 db.insertUser(username.getText(), password.getText(), (String) role.getValue());
                 usernameTaken.setText("Account created successfully!");
                 Main m = new Main();
-                db.setCurrentUser(db.findUser(username.getText()).get());
+                if(db.findUser(username.getText()).isPresent()) {
+                    db.setCurrentUser(db.findUser(username.getText()).get());
+                }
                 if(role.getValue().equals("Customer")) {
                     m.changeScene("customer-menu.fxml");
                 } else {
@@ -66,5 +68,73 @@ public class RegisterController implements Initializable {
     public void toLogin(ActionEvent event) throws IOException {
         Main m = new Main();
         m.changeScene("log-in.fxml");
+    }
+
+    public TextField getUsername() {
+        return username;
+    }
+
+    public PasswordField getPassword() {
+        return password;
+    }
+
+    public ChoiceBox<String> getRole() {
+        return role;
+    }
+
+    public Button getRegister() {
+        return register;
+    }
+
+    public Button getLogin() {
+        return login;
+    }
+
+    public Label getUsernameTaken() {
+        return usernameTaken;
+    }
+
+    public NitriteDB getDb() {
+        return db;
+    }
+
+    public Main getM() {
+        return m;
+    }
+
+    public String[] getRoles() {
+        return roles;
+    }
+
+    public void setUsername(TextField username) {
+        this.username = username;
+    }
+
+    public void setPassword(PasswordField password) {
+        this.password = password;
+    }
+
+    public void setRole(ChoiceBox<String> role) {
+        this.role = role;
+    }
+
+    public void setRegister(Button register) {
+        this.register = register;
+    }
+
+    public void setLogin(Button login) {
+        this.login = login;
+    }
+
+    public void setUsernameTaken(Label usernameTaken) {
+        this.usernameTaken = usernameTaken;
+    }
+
+    public void setDb(NitriteDB db) {
+        this.db = db;
+    }
+
+    public void setM(Main m) {
+        this.m = m;
     }
 }

@@ -25,7 +25,7 @@ public class LogInController {
         checkLogin();
     }
     @FXML
-    private void checkLogin() throws IOException{
+    public void checkLogin() throws IOException{
 
         if(tf_username.getText().isEmpty() ) {
             wrongLogin.setText("Please fill in the username field");
